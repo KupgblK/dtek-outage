@@ -19,7 +19,7 @@ async def main():
     e = entry.model_dump()
     state = {
         "site_updated": dump.get("update_timestamp"),
-        "groups": e.get("group_ids"),
+        "groups": sorted(e.get("group_ids") or []),
         "outage": {k: e.get(k) for k in
                    ("sub_type", "start_date", "end_date", "outage_type", "voluntarily")},
         "show_cur_outage_param": dump.get("show_cur_outage_param"),
