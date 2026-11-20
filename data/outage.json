@@ -1,14 +1,14 @@
 {
-  "site_updated": "11:03 20.11.2026",
+  "site_updated": "12:18 20.11.2026",
   "groups": [
     "GPV6.1",
     "GPV6.2"
   ],
   "outage": {
-    "sub_type": "",
-    "start_date": "",
-    "end_date": "",
-    "outage_type": "",
+    "sub_type": "Аварійні ремонтні роботи",
+    "start_date": "10:30 20.11.2026",
+    "end_date": "17:43 20.11.2026",
+    "outage_type": "2",
     "voluntarily": null
   },
   "show_cur_outage_param": true
